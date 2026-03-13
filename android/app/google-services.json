@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1067642694608",
+    "project_id": "vitagita-3c6af",
+    "storage_bucket": "vitagita-3c6af.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1067642694608:android:41501f7b4bf7d93bfc27d5",
+        "android_client_info": {
+          "package_name": "com.example.vitagita"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAnbWhW2WsGkp1wlhwQNi1hMUkXiAtjZdQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
