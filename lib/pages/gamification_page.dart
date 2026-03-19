@@ -72,18 +72,22 @@ class _GamificationPageState extends State<GamificationPage> {
       ];
 
       final levels = [
-        {'range': '0-500', 'level': t('level_shishu'), 'image': 'shishu_new'},
+        {'range': '0-500', 'level': t('level_shishu'), 'image': 'shishu.jpg'},
         {
           'range': '501-2000',
           'level': t('level_sainik'),
-          'image': 'sainik_zoom'
+          'image': 'sainik.jpg'
         },
-        {'range': '2001-5000', 'level': t('level_rathi'), 'image': 'rathi_new'},
-        {'range': '5001-20000', 'level': t('level_atirathi'), 'image': 'ath'},
+        {'range': '2001-5000', 'level': t('level_rathi'), 'image': 'rathi.jpg'},
+        {
+          'range': '5001-20000',
+          'level': t('level_atirathi'),
+          'image': 'athu.jpg'
+        },
         {
           'range': '>20001',
           'level': t('level_maharathi'),
-          'image': 'maharati_new'
+          'image': 'maharati.jpg'
         },
       ];
 
@@ -271,7 +275,7 @@ class _GamificationPageState extends State<GamificationPage> {
                                 borderRadius: BorderRadius.circular(6),
                                 image: DecorationImage(
                                   image: AssetImage(
-                                    'assets/splash/${row.imageName}.jpeg',
+                                    'assets/splash/${row.imageName}',
                                   ),
                                   fit: BoxFit.cover,
                                 ),
